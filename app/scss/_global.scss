@@ -37,10 +37,10 @@ body {
 .title {
   text-align: center;
   margin-bottom: 30px;
+  @include f700;
   color: $bg;
   font-size: 36px;
   line-height: 60px;
-  font-weight: 700;
 }
 .rate-star {
   display: inline-block;
