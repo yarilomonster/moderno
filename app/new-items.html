@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Moderno</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -14,9 +14,7 @@
 <body>
   <div class="wrapper">
     <div class="content page-content">
-      <!-------- 
-  HEADER
---------->
+      <!-- START HEADER -->
       <header class="header">
         <div class="header__top">
           <div class="container">
@@ -34,16 +32,137 @@
                 <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
               </div>
               <div class="header__box">
-                <a class="basket" href="#"></a>
-                <a class="header__btn header__btn-login" href="#">Login</a>
-                <a class="header__btn header__btn-register" href="#">Register</a>
+                <div class="notification__box">
+                  <a class="notification header__circle active icon-bell-o" href="#">
+                    <span>8</span>
+                  </a>
+                  <div class="circle__menu notification__menu">
+                    <a href="#" class="circle__item icon-bell-o icons-color">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                    <a href="#" class="circle__item icon-bell-o">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                    <a href="#" class="circle__item icon-bell-o">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="message__box">
+                  <a class="message header__circle active icon-envelope-o" href="#">
+                    <span>5</span>
+                  </a>
+                  <div class="circle__menu message__menu">
+                    <a href="#" class="circle__item icon-envelope-o icons-color">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Kazi Fahim</div>
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                    <a href="#" class="circle__item icon-envelope-o">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Kazi Fahim</div>
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                    <a href="#" class="circle__item icon-mail-reply">
+                      <img class="circle__images" src="img/content/message.jpg" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Kazi Fahim</div>
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="basket__box">
+                  <a class="basket header__circle active icon-shopping-cart" href="#">
+                    <span>8</span>
+                  </a>
+                  <div class="circle__menu">
+                    <div class="circle__item">
+                      <img class="circle__images" src="img/content/basket.png" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Grand Ballet</div>
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-price">$59</div>
+                      </div>
+                    </div>
+                    <div class="circle__item">
+                      <img class="circle__images" src="img/content/basket.png" alt="">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Grand Ballet</div>
+                        <div class="circle__info-theme">WordPress</div>
+                        <div class="circle__info-price">$59</div>
+                      </div>
+                    </div>
+                    <div class="basket__summ">
+                      <div class="basket__summ-title">
+                        <div class="basket__summ-total">Total</div>
+                        <div class="basket__summ-price">$118</div>
+                      </div>
+                      <a class="basket__btn" href="#">Go to Cart</a>
+                      <a class="basket__btn basket__btn-checkout" href="#">Go to Checkout</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="user__box">
+                  <a class="user" href="#">
+                    <div class="user__inner">
+                      <div class="user__images">
+                        <img src="img/content/user-login.jpg" alt="">
+                      </div>
+                      <div class="user__info">
+                        <div class="user__name">Mike Hussy</div>
+                        <div class="user__money">$171.00</div>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="user__menu">
+                    <ul>
+                      <li><a class="angle-right" href="#">Profile Page</a></li>
+                      <li><a class="angle-right" href="#">Portfolio</a></li>
+                      <li><a class="angle-right" href="#">Account Setting</a></li>
+                      <li><a class="angle-right" href="#">Downloads</a></li>
+                      <li><a class="angle-right" href="#">Wishlist</a></li>
+                      <li><a class="angle-right" href="#">Upload Item</a></li>
+                      <li><a class="angle-right" href="#">Statement</a></li>
+                      <li><a class="angle-right" href="#">Withdraws</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="header__btn header__btn-login header__btn-login--off" href="#">Login</a>
+                <a class="header__btn header__btn-logout header__btn-login--on" href="#">Logout</a>
+                <a class="header__btn header__btn-register header__btn-login--off" href="#">Register</a>
               </div>
+              <div class="header__btn-menu icon-user"></div>
             </div>
           </div>
         </div>
         <div class="header__menu">
           <div class="container">
             <nav class="menu">
+              <div class="menu__btn">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
               <ul class="menu__list">
                 <li>
                   <a href="#">
@@ -100,7 +219,8 @@
           </div>
         </div>
       </header>
-      <!-- page-search -->
+      <!-- END HEADER -->
+      <!-- START PAGE-SEARCH -->
       <section class="search page-search" style="background: url('img/search-bg.jpg');">
         <div class="container">
           <div class="search__inner">
@@ -118,7 +238,8 @@
           </div>
         </div>
       </section>
-      <!-- breadcrumbs -->
+      <!-- END PAGE-SEARCH -->
+      <!-- START BREADCRUMBS -->
       <div class="breadcrumbs">
         <div class="container">
           <div class="breadcrumbs__inner">
@@ -129,12 +250,11 @@
           </div>
         </div>
       </div>
-      <!--  -->
+      <!-- END BREADCRUMBS -->
+      <!-- START PRODUCT-PAGE -->
       <section class="product-page">
         <div class="container">
           <div class="product-page__inner">
-
-
             <aside class="product-page__aside">
               <div class="category aside__item">
                 <div class="aside__title">
@@ -293,7 +413,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="product__item">
                   <a class="product__item-img" href="#"
                     style="background-image: url(img/content/product-item.jpg);"></a>
@@ -328,7 +447,278 @@
                     </div>
                   </div>
                 </div>
-
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__item">
+                  <a class="product__item-img" href="#"
+                    style="background-image: url(img/content/product-item.jpg);"></a>
+                  <div class="product__item-content">
+                    <div class="product__item-name">
+                      <a class="product__item-title" href="#">
+                        Responsive Mobile APP
+                      </a>
+                      <a class="product__item-category" href="#">
+                        Site Template
+                      </a>
+                      <div class="product__item-text">
+                        Pimply dummy text of the printing and typesetting industry.
+                      </div>
+                    </div>
+                    <div class="product__item-price">
+                      $19
+                      <span>Sales (14 )</span>
+                    </div>
+                  </div>
+                  <div class="product__item-info">
+                    <a class="product__item-author" href="#">
+                      <div class="avatar" style="background-image: url(img/content/user.jpg);"></div>
+                      <span>Radiustheme</span>
+                    </a>
+                    <div class="product__item-star">
+                      <div class="rate-star"></div>(<span>05</span>)
+                    </div>
+                    <div class="product__item-list">
+                      <a class="icon-comment-o" href="#">(<span>10</span>)</a>
+                      <div class="icon-heart-o">(<span>20</span>)</div>
+                    </div>
+                  </div>
+                </div>
                 <div class="product__item">
                   <a class="product__item-img" href="#"
                     style="background-image: url(img/content/product-item.jpg);"></a>
@@ -377,6 +767,7 @@
           </div>
         </div>
       </section>
+      <!-- END PRODUCT-PAGE -->
 
 
 
@@ -394,7 +785,7 @@
       <div class="footer__content">
         <div class="container">
           <div class="footer__inner">
-            <div class="footer__col">
+            <div class="footer__col footer__col-address">
               <div class="footer__col-title">About Company</div>
               <div class="footer__col-text">
                 Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna
@@ -428,7 +819,7 @@
                 <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
-            <div class="footer__col">
+            <div class="footer__col footer__col-social">
               <div class="footer__col-title">Follow Us On</div>
               <ul class="footer__social-link">
                 <li><a class="link-facebook" href="#"></a></li>
